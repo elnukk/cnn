@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-# import
+# import data set from https://www.kaggle.com/datasets/inancigdem/carbon-nanotubes
 df = pd.read_csv('carbon_nanotubes.csv', sep=';', decimal=',')
 df.shape
 # first glance
